@@ -1,0 +1,2 @@
+# this conflicts with Dist::Zilla::Plugin::PkgVersion
+[-TestingAndDebugging::RequireUseStrict]

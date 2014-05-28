@@ -1,0 +1,10 @@
+dist.ini
+local
+.git
+^MYMETA\.yml$
+^MYMETA\.json$
+^Build$
+_alien/
+_build/
+_share/
+blib/
