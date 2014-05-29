@@ -6,3 +6,4 @@ _build/
 _share/
 blib/
 local
+Alien-SamTools-*
