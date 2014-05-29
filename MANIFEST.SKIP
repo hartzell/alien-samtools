@@ -1,5 +1,7 @@
 cpanfile
 dist.ini
+tidyall.ini
+perlcritic.rc
 local
 .git
 ^MYMETA\.yml$
