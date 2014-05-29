@@ -62,7 +62,6 @@ on 'develop' => sub {
   requires "Dist::Zilla::Plugin::RunExtraTests" => "0";
   requires "Dist::Zilla::Plugin::ShareDir" => "0";
   requires "Dist::Zilla::Plugin::Test::Compile" => "0";
-  requires "Dist::Zilla::Plugin::Test::Version" => "0";
   requires "Dist::Zilla::Plugin::TestRelease" => "0";
   requires "Dist::Zilla::Plugin::UploadToCPAN" => "0";
 };
