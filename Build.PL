@@ -1,5 +1,6 @@
 use strict;
 use warnings;
+use Config;
 
 use Alien::Base::ModuleBuild;
 
@@ -22,7 +23,7 @@ my $builder = Alien::Base::ModuleBuild->new(
         exact_filename => 'samtools-0.1.19.tar.bz2',
         exact_version  => '0.1.19',
     },
-    alien_build_commands   => ['make lib CFLAGS="-fPIC -g -Wall -O2"'],
+    alien_build_commands   => ["make lib CC=$Config{cc} CFLAGS=\"-fPIC -g -Wall -O2\""],
     alien_install_commands => [
         'mkdir -p %s/lib',
         'cp libbam.a %s/lib',
