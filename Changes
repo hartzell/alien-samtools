@@ -2,6 +2,9 @@ Changes file for the Alien-SamTools distribution.
 
 {{$NEXT}}
 
+    - Pick compiler (cc) based on info in Config.
+      (thanks plicease)
+      
 0.001     2014-05-29 08:29:30-07:00 America/Los_Angeles
 
     - Initial release.
