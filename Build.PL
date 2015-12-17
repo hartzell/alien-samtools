@@ -18,9 +18,9 @@ my $builder = Alien::Base::ModuleBuild->new(
     # if you update this, update the docs in lib/Alien/SamTools.pm!
     alien_repository => {
         protocol       => 'http',
-        host           => 'colocrossing.dl.sourceforge.net',
-        location       => '/project/samtools/samtools/0.1.19/',
-        exact_filename => 'samtools-0.1.19.tar.bz2',
+        host           => 'github.com',
+        location       => '/samtools/samtools/archive/',
+        exact_filename => '0.1.19.tar.gz',
         exact_version  => '0.1.19',
     },
     alien_build_commands   => ["make lib CC=$Config{cc} CFLAGS=\"-fPIC -g -Wall -O2\""],
