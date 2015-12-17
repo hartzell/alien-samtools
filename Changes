@@ -2,6 +2,8 @@ Changes file for the Alien-SamTools distribution.
 
 {{$NEXT}}
 
+0.002     2015-12-17 11:33:39-08:00 America/Los_Angeles
+
     - Pick compiler (cc) based on info in Config.
       (thanks plicease)
       
