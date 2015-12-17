@@ -4,7 +4,7 @@ Alien::SamTools - Fetch/build/stash the SamTools headers and libs.
 
 # VERSION
 
-version 0.001
+version 0.002
 
 # SYNOPSIS
 

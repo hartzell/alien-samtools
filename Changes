@@ -5,6 +5,8 @@ Changes file for the Alien-SamTools distribution.
     - Pick compiler (cc) based on info in Config.
       (thanks plicease)
       
+    - Change download site to github.
+
 0.001     2014-05-29 08:29:30-07:00 America/Los_Angeles
 
     - Initial release.
