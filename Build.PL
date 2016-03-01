@@ -11,7 +11,7 @@ my $builder = Alien::Base::ModuleBuild->new(
     configure_requires => { 'Alien::Base' => 0, },
     requires           => {
         'perl'        => '5.8.1',
-        'Alien::Base' => 0,
+        'Alien::Base::ModuleBuild' => 0,
     },
     dist_author      => 'George Hartzell <hartzell@cpan.org>',
     alien_name       => 'samtools',
